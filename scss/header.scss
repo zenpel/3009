@@ -1,0 +1,26 @@
+@use 'points.scss' as *;
+.twitter{
+  margin: 4px;
+  margin-left: 15px;
+  width: 50px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head_text{
+  padding: 10px;
+  padding-top: 12px;
+}
+.head_img{
+  margin-top: 5px;
+}
+.head_text:hover{
+  background-color: gray;
+}
+@media(max-width:$breakpoint){
+  .head_text{
+    display: none;
+  }
+}
